@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "307637695138",
+    "firebase_url": "https://utube-booster-cfb08.firebaseio.com",
+    "project_id": "utube-booster-cfb08",
+    "storage_bucket": "utube-booster-cfb08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307637695138:android:fda3d286805fbe580bddfb",
+        "android_client_info": {
+          "package_name": "org.niklab.earnbooster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307637695138-kfud8kghguuc8odufalfrlh9o2tqjvch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.niklab.earnbooster",
+            "certificate_hash": "ec894b92c6877e4e45c2fac5638986a65d092e9f"
+          }
+        },
+        {
+          "client_id": "307637695138-e8dljhk05isljasr45kutdj0bo0bd1u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.niklab.earnbooster",
+            "certificate_hash": "3205c02f112ec81c73746c74f8f9f4b6307ec6c5"
+          }
+        },
+        {
+          "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCioqNhhem-HcYcYP1iUih_P8wcbQQOtw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307637695138:android:3358a2768b9f60c70bddfb",
+        "android_client_info": {
+          "package_name": "org.niklab.utubeboooster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCioqNhhem-HcYcYP1iUih_P8wcbQQOtw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307637695138:android:c13fedbc5b54871d",
+        "android_client_info": {
+          "package_name": "org.niklab.utubebooster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307637695138-3o05bmu1gqg1qdm4di0sp860tiun2oj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.niklab.utubebooster",
+            "certificate_hash": "6c27548d480f77dc1fcb537d6a587a08e6da6882"
+          }
+        },
+        {
+          "client_id": "307637695138-j10m86gijuf731cri80m3vn9i509aqoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.niklab.utubebooster",
+            "certificate_hash": "3205c02f112ec81c73746c74f8f9f4b6307ec6c5"
+          }
+        },
+        {
+          "client_id": "307637695138-42emkcsnobufjnht74vk9cdq2rk0nfkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.niklab.utubebooster",
+            "certificate_hash": "ffc62e56363a5f59e2ce2c5147098c4f329e6525"
+          }
+        },
+        {
+          "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCioqNhhem-HcYcYP1iUih_P8wcbQQOtw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307637695138-mqacd9so1tv1vsnav0hvu9dbpffoj0r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

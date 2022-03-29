@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">U Booster</string>
+    <string name="slide1title">Welcome to U Booster</string>
+
+    <string name="slide2title">How To Get Coins</string>
+    <string name="slide2des">You can get coins by watching videos or subscribing to Youtube Channels . </string>
+    <string name="slide3title">Add Your Videos</string>
+    <string name="slide3des">You can boost your youtube channel videos . Just you need to start a campaign . You must have to provide correct URl. Follow the Url example.</string>
+    <string name="slide4title">Add Your Channels</string>
+    <string name="slide4des">You can boost your youtube channels Subscriber . Just you need to start a campaign . You must have to provide correct URl. Follow the Url example.</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="msg">To Continue Enable All Permissions </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="disclaimar">We need the permission for Subscription and Like method . The app is under google api so we can\'t manage your channel or do anything personally . Hence if you have any doubt you can use any gmail account that have youtube channel to use the app .</string>
+
+
+</resources>

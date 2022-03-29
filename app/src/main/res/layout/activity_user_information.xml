@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInformation"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/L"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_below="@id/L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/coins"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:drawableStart="@drawable/ic_monetization_on_blackview_24dp"
+                android:text="000000"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:text="Coins" />
+
+            <Button
+                android:textSize="15sp"
+                android:id="@+id/Plus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+" />
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click [+] button to buy coins" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:orientation="vertical"
+        android:layout_below="@id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        <EditText
+            android:id="@+id/FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="First Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Last Name" />
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            />
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="admin@gmail.com" />
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/R"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:background="#41c300"
+            android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/BSilver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy 2000 Coins " />
+
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/BSilver"
+            android:textColor="@color/white"
+            android:background="#3d00e0"
+            android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/BGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy 6000 Coins " />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/BGold"
+            android:textColor="@color/white"
+            android:background="#ff9e22"
+            android:drawableStart="@drawable/ic_monetization_on_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/BDiamond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy 15000 Coins" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/takeFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Didn't Receive Coins after Buying?" />
+
+
+</RelativeLayout>
